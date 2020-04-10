@@ -1,0 +1,16 @@
+ul> li{
+    display: inline-block;
+    background-color:white;
+    border: 1px solid#ddd;
+    margin-left: -1px;
+    padding: 10px;
+    cursor: pointer;
+}
+ul>li.active{
+background-color: blue;
+
+}
+ul>li.disabled{
+    background-color: gainsboro;
+    cursor: default;
+    }

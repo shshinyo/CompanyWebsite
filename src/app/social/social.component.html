@@ -1,0 +1,8 @@
+
+    <ul class="social-icons" style="float: right;">
+          <li *ngFor="let item of social">
+            <a target="{{item.target}}" title="{{item.title}}" href="https://www.facebook.com/{{item.username}}">
+              <i class="fa fa-{{item.icon}} fa-1x"></i><span>Facebook</span>
+            </a>
+          </li>
+      

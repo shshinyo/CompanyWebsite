@@ -1,0 +1,10 @@
+<!--blog Tables-->
+<section id="pricing" class="secondary-color text-center scrollto clearfix ">
+    <div class="row clearfix" *ngIf="post">
+        <div  class="post-block col-1 wow fadeInUp" data-wow-delay="0.4s" >
+       <app-post [post]="post"></app-post>
+       </div>
+    </div>
+    <button class="button" (click)="getback()">back</button>
+</section>
+<!--End of blog Tables-->

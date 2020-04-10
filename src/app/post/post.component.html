@@ -1,0 +1,20 @@
+ <!--Pricing Block-->
+            
+
+     <div class="post-block-content" >
+         
+                 <h3>{{post.title | uppercase}}</h3>
+                 <p class="post-sub">{{post.author}} |{{post.publishdate|date:'medium'}}</p>
+                 <div class="post-featured-image">
+                     <img src="../../assets/images/gallery-images/{{post.image}}">
+  
+                 </div>
+                 <ul>
+                    {{post.excert}}
+                 </ul>
+                 <a routerLink="/article/{{post.id}}" class="">read more</a>
+         
+         
+     </div>
+ 
+ <!--End Pricing Block-->
